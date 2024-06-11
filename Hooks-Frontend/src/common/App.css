@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #282c34;
+  padding: 10px 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-item {
+  margin: 0 15px;
+}
+
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-item a:hover {
+  color: #61dafb;
+  cursor: pointer;
+}
+
+.header {
+  margin: 4rem;
+}
